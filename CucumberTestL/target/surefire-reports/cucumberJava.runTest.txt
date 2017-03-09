@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: cucumberJava.runTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 4.901 sec <<< FAILURE! - in cucumberJava.runTest
+Then Login button should exits       Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #u_0_v
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ThinkPad-T430', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-64-generic', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170201180315, version=, platform=LINUX, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=15745, browserVersion=51.0.1, platformVersion=4.4.0-64-generic, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=linux}]
+Session ID: e84dd385-451f-40d4-aabe-8c79a29caead
+*** Element info: {Using=id, value=u_0_v}
+
+Scenario: Login functionality exists    Time elapsed: 0.006 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #u_0_v
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ThinkPad-T430', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-64-generic', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170201180315, version=, platform=LINUX, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=15745, browserVersion=51.0.1, platformVersion=4.4.0-64-generic, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=linux}]
+Session ID: e84dd385-451f-40d4-aabe-8c79a29caead
+*** Element info: {Using=id, value=u_0_v}
+
